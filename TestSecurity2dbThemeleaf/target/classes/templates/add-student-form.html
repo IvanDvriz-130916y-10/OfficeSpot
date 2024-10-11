@@ -37,9 +37,9 @@
 
     <form th:action="@{/saveStudent}" th:object="${student}" method="POST">
 
-        <input type="text" th:field="*{name}" class="form-control col-4 mb-4" placeholder="Введите имя"/>
+        <input type="text" th:field="*{name}" class="form-control col-4 mb-4" placeholder="Введите фамилию"/>
 
-        <input type="text" th:field="*{surname}" class="form-control col-4 mb-4" placeholder="Введите пароль"/>
+        <input type="text" th:field="*{surname}" class="form-control col-4 mb-4" placeholder="Введите имя"/>
 
         <input type="text" th:field="*{faculty}" class="form-control col-4 mb-4" placeholder="Введите должность"/>
 
